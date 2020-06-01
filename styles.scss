@@ -1,11 +1,22 @@
 $primary-color: #E8BD66;
 
+%hover-effect {
+  background-color: purple;
+  color: yellow;
+}
+
 
 h1 {
-  font-family: Roboto, sans-serif;
+  font-family: 'Questrial', sans-serif;
   text-align: center;
   color: $primary-color;
+  &::selection {
+    @extend %hover-effect;
+  }
 }
 h4, p {
   text-align: center;
+  &::selection {
+    @extend %hover-effect;
+  }
 }
