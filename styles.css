@@ -1,11 +1,11 @@
 h1::-moz-selection, h4::-moz-selection, p::-moz-selection {
   background-color: plum;
-  color: tomato;
+  color: linen;
 }
 
 h1::selection, h4::selection, p::selection {
   background-color: plum;
-  color: tomato;
+  color: linen;
 }
 
 h1 {
