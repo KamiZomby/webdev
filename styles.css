@@ -4,12 +4,12 @@ h4::selection, p::selection, h1::selection {
 }
 
 h1 {
-  font-family: "Questrial", sans-serif;
+  font-family: 'Questrial', sans-serif;
   text-align: center;
   color: #E8BD66;
 }
+
 h4, p {
   text-align: center;
 }
-
 /*# sourceMappingURL=styles.css.map */
