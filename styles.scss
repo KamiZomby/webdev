@@ -1,4 +1,4 @@
-$primary-color: #E8BD66;
+$primary-color: maroon;
 
 %hover-effect {
   background-color: plum;
@@ -19,4 +19,14 @@ h4, p {
   &::selection {
     @extend %hover-effect;
   }
+}
+
+#header {
+  background-color: lavenderblush;
+  padding: 2em 0em;
+}
+
+#footer {
+  background-color: lightcoral;
+  padding: 2em 0em;
 }
