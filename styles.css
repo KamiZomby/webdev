@@ -1,11 +1,11 @@
 h1::-moz-selection, h4::-moz-selection, p::-moz-selection {
-  background-color: turquoise;
-  color: coral;
+  background-color: orange;
+  color: khaki;
 }
 
 h1::selection, h4::selection, p::selection {
-  background-color: turquoise;
-  color: coral;
+  background-color: orange;
+  color: khaki;
 }
 
 h1 {
