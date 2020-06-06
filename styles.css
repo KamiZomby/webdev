@@ -1,9 +1,9 @@
-h1::-moz-selection, h4::-moz-selection, p::-moz-selection {
+h1::-moz-selection, h4::-moz-selection, p::-moz-selection, i::-moz-selection {
   background-color: plum;
   color: linen;
 }
 
-h1::selection, h4::selection, p::selection {
+h1::selection, h4::selection, p::selection, i::selection {
   background-color: plum;
   color: linen;
 }
@@ -14,7 +14,7 @@ h1 {
   color: maroon;
 }
 
-h4, p {
+h4, p, i {
   text-align: center;
 }
 
